@@ -3,7 +3,7 @@ import assert from 'node:assert';
 import { add, subtract, multiply, divide } from './calculator.js';
 
 test('Addition', () => {
-    assert.strictEqual(add(10, 5), 15);
+    assert.strictEqual(add(1, 2), 3);
 });
 
 test('Subtraction', () => {
